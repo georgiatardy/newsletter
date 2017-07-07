@@ -16,6 +16,59 @@ Input Border Bottom: #968772;
 Input Border Bottom (Focus): #967343;
 */
 
-body {
+
+/*.main_nav {
+  text-align: center;
+  word-spacing: 30px;
+  font: #2B2F26;
+}*/
+
+.site_container {
   background-color: #F2F1E8;
+  margin: 20px;
+}
+
+.navigationbar{
+  background-color: white;
+  height: 60px;
+  padding: 50px;
+
+}
+
+.logo {
+  width: 5%;
+  position: relative;
+  height: auto;
+  padding: 1em;
+  float:left;
+}
+
+nav ul li{
+display: inline-block;
+margin: 20px;
+list-style-type: none;
+text-align: center;
+}
+
+/*nav ul li a{
+  float: left;
+  display: block;
+  color: #2B2F26;
+
+}*/
+
+
+.main_content{
+  padding: 100px;
+  padding-top: 15px;
+}
+
+h1 {
+ font-size: 300%;
+ text-align: center;
+ margin: 2px;
+}
+
+.plant-image{
+
 }
