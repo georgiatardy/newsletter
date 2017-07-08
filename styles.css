@@ -47,7 +47,7 @@ nav ul li{
 display: inline-block;
 margin: 20px;
 list-style-type: none;
-text-align: center;
+text-align:right;
 }
 
 /*nav ul li a{
@@ -58,10 +58,17 @@ text-align: center;
 }*/
 
 
-.main_content{
-  padding: 100px;
-  padding-top: 15px;
+.pagetop{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
 }
+
+.pagebottom{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+  }
 
 h1 {
  font-size: 300%;
@@ -69,6 +76,7 @@ h1 {
  margin: 2px;
 }
 
-.plant-image{
+.roomtogrowimage{
+  
 
 }
