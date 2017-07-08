@@ -28,10 +28,16 @@ Input Border Bottom (Focus): #967343;
   margin: 20px;
 }
 
-.navigationbar{
+.navigationbar {
   background-color: white;
   height: 60px;
   padding: 50px;
+}
+
+
+ul {
+  text-align: center;
+  font-size: 60px;
 
 }
 
@@ -40,15 +46,16 @@ Input Border Bottom (Focus): #967343;
   position: relative;
   height: auto;
   padding: 1em;
-  float:left;
+  float: left;
 }
 
-nav ul li{
-display: inline-block;
-margin: 20px;
-list-style-type: none;
-text-align:right;
+nav ul li {
+  display: inline-block;
+  margin: 20px;
+  list-style-type: none;
+  text-align: right;
 }
+
 
 /*nav ul li a{
   float: left;
@@ -58,25 +65,71 @@ text-align:right;
 }*/
 
 
-.pagetop{
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 10px;
+
+img.logo {
+  height: 100px;
+  width: 100px;
 }
 
-.pagebottom{
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 10px;
-  }
+.navigationbar {
+  margin-bottom: 50px;
+
+}
 
 h1 {
- font-size: 300%;
- text-align: center;
- margin: 2px;
+  font-size: 200px;
+  text-align: center;
+  margin: 2px;
 }
 
-.roomtogrowimage{
-  
+h2 {
+  font-size: 100px;
+}
 
+h3 {
+  font-size: 100px;
+}
+
+h4 {
+  font-size: 100px;
+}
+
+.pagetop {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 10px;
+}
+
+p {
+  font-family: Merriweather, serif;
+  font-style: normal;
+  font-size:60px;
+}
+
+blockquote {
+  font-size: 70px;
+}
+
+.pagebottom {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 10px;
+}
+
+img.roomtogrow {
+  object-fit: fill;
+}
+
+div.Monthly.Plans {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+table {
+  font-size: 60px;
+}
+
+table, th, td {
+   border: 1px solid black;
+   text-align:left;
 }
