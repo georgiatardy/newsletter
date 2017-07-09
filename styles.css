@@ -25,7 +25,7 @@ Input Border Bottom (Focus): #967343;
 
 .site_container {
   background-color: #F2F1E8;
-  margin: 20px;
+  margin: 100px;
 }
 
 .navigationbar {
@@ -47,7 +47,9 @@ ul {
   height: auto;
   padding: 1em;
   float: left;
-}
+  height: 100px;
+  width: 100px;
+  }
 
 nav ul li {
   display: inline-block;
@@ -65,14 +67,16 @@ nav ul li {
 }*/
 
 
-
-img.logo {
-  height: 100px;
-  width: 100px;
-}
-
 .navigationbar {
   margin-bottom: 50px;
+}
+
+.birdhouse{
+  float: left;
+  height: 10%;
+  width: 10%;
+  padding: 10px;
+  padding-right: 30px;
 
 }
 
@@ -83,21 +87,27 @@ h1 {
 }
 
 h2 {
-  font-size: 100px;
+  font-size: 75px;
 }
 
 h3 {
-  font-size: 100px;
+  font-size: 75px;
 }
 
 h4 {
-  font-size: 100px;
+  font-size: 75px;
 }
 
 .pagetop {
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 10px;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 60px;
+}
+
+.pagebottom {
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-top: 20px;
 }
 
 p {
@@ -110,19 +120,19 @@ blockquote {
   font-size: 70px;
 }
 
-.pagebottom {
-  padding-left: 200px;
-  padding-right: 200px;
-  padding-top: 10px;
+div.roomtogrowimage {
+  object-fit: cover;
 }
 
-img.roomtogrow {
-  object-fit: fill;
+.background-1{
+  float: right;
+  height: 10%;
+  width: 20%;
 }
 
 div.Monthly.Plans {
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 400px;
+  padding-right: 400px;
 }
 
 table {
@@ -132,4 +142,14 @@ table {
 table, th, td {
    border: 1px solid black;
    text-align:left;
+   padding-left: 400px;
+   padding-right: 400px;
+}
+
+.site_footer{
+  background-color: black;
+  padding: 50px;
+  margin: 40px;
+  margin-right: 0;
+  width: 100%;
 }
